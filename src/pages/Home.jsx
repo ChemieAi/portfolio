@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const Home = () => {
     return (
         <motion.section
-            className="py-12 flex flex-col items-center text-center mt-20"
+            className="py-12 flex flex-col items-center text-center md:mt-20"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -30 }}
@@ -11,7 +11,7 @@ const Home = () => {
         >
             <section className="py-12 flex flex-col items-center text-center">
                 <img
-                    src="DISCORD_SERVER_ICON_SLOW (256).gif"
+                    src="/DISCORD_SERVER_ICON_SLOW (256).gif"
                     alt="Burak"
                     className="w-32 h-32 rounded-full mb-4 border-4 border-gray-700 shadow-md "
                 />
