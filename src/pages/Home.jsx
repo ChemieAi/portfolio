@@ -11,7 +11,7 @@ const Home = () => {
         >
             <section className="py-12 flex flex-col items-center text-center">
                 <img
-                    src="/Logo.png"
+                    src="/LOGO.png"
                     alt="Burak"
                     className="w-32 h-32 rounded-full mb-4 border-4 border-gray-700 shadow-md "
                 />
