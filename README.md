@@ -1,4 +1,4 @@
 # My Portfolio
 
-|Domain   !   [burak.engineer](https://www.burak.engineer)   |
+|Domain   |   [burak.engineer](https://www.burak.engineer)   |
 ----------------------------------------------------------------
