@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className="grid md:grid-cols-3 gap-6">
                     <a
                         href="mailto:chemie.valorant@gmail.com"
-                        className="bg-[#111] border border-gray-800 p-5 rounded-xl hover:border-blue-500 transform transition duration-300 hover:-translate-y-1 hover:scale-[1.02] flex flex-col justify-center items-start"
+                        className="bg-[#111] border border-gray-800 p-5 rounded-xl hover:border-purple-500 hover:shadow-[0_0_12px_#a855f7] transition duration-300 transform hover:-translate-y-1 hover:scale-[1.03]"
                     >
                         <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
                         <p className="text-gray-400">chemie.valorant@gmail.com</p>
@@ -28,9 +28,7 @@ const Contact = () => {
                         href="https://github.com/ChemieAi"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-[#111] p-5 rounded-xl border border-gray-800
-             hover:border-blue-500 transform transition duration-300
-             hover:-translate-y-1 hover:scale-[1.02]"
+                        className="bg-[#111] border border-gray-800 p-5 rounded-xl hover:border-purple-500 hover:shadow-[0_0_12px_#a855f7] transition duration-300 transform hover:-translate-y-1 hover:scale-[1.03]"
                     >
                         <h3 className="text-lg font-semibold text-white mb-2">GitHub</h3>
                         <p className="text-gray-400">github.com/ChemieAi</p>
@@ -40,9 +38,7 @@ const Contact = () => {
                         href="https://www.linkedin.com/in/burak-kızılay/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-[#111] p-5 rounded-xl border border-gray-800
-             hover:border-blue-500 transform transition duration-300
-             hover:-translate-y-1 hover:scale-[1.02]"
+                        className="bg-[#111] border border-gray-800 p-5 rounded-xl hover:border-purple-500 hover:shadow-[0_0_12px_#a855f7] transition duration-300 transform hover:-translate-y-1 hover:scale-[1.03]"
                     >
                         <h3 className="text-lg font-semibold text-white mb-2">LinkedIn</h3>
                         <p className="text-gray-400">https://www.linkedin.com/in/burak-kızılay/</p>
