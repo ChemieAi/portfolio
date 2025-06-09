@@ -11,7 +11,7 @@ const App = () => {
   const location = useLocation();
 
   return (
-    <div className="bg-black text-white min-h-screen font-sans flex flex-col">
+    <div className="text-white min-h-screen font-sans flex flex-col">
       <Navbar />
       <main className="flex-grow px-4 md:px-20 lg:px-32 pt-28">
         <AnimatePresence mode="wait">

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  position: relative;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: url('/matrix-bg.gif') no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(8px) brightness(0.6); /* bulanık + karartma */
+  opacity: 0.3;
+}

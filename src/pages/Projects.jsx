@@ -49,12 +49,13 @@ const Projects = () => {
             transition={{ duration: 0.4 }}
         >
             <section className="py-8">
-                <h2 className="text-3xl font-bold mb-8">Projects</h2>
+                <h2 className="text-3xl mb-8 font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">Projects</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                     {projects.map((project, index) => (
-                        <div key={index} className="bg-[#111] border border-gray-800 p-5 rounded-xl
-             hover:border-blue-500 transform transition duration-300
-             hover:-translate-y-1 hover:scale-[1.02]" >
+                        <div
+                            key={index}
+                            className="bg-[#111] border border-gray-800 p-5 rounded-xl hover:border-purple-500 hover:shadow-[0_0_12px_#a855f7] transition duration-300 transform hover:-translate-y-1 hover:scale-[1.03]"
+                        >
                             <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                             <p className="text-gray-400 mb-3">{project.description}</p>
                             <div className="flex flex-wrap gap-2 text-sm mb-3">

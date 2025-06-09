@@ -15,8 +15,11 @@ const Home = () => {
                     alt="Burak"
                     className="w-32 h-32 rounded-full mb-4 border-4 border-gray-700 shadow-md "
                 />
-                <h1 className="text-4xl font-bold mb-2">Hey, I'm Burak Kızılay 👋</h1>
-                <p className="text-gray-400 text-lg leading-relaxed max-w-xl">
+                <h1 className="text-4xl font-extrabold mb-8 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text hover:text-white transition duration-200 transform hover:-translate-y-0.5 hover:scale-105 hover:drop-shadow-[0_0_4px_#a855f7]">
+                    Hey, I'm Burak Kızılay<a className="text-white">👋</a>
+                </h1>
+
+                <p className="text-gray-300 text-lg leading-relaxed max-w-xl">
                     I'm a Computer Engineer with hands-on experience in React, Java, Spring Boot, Oracle, and MSSQL.
                     I actively use Agile methodologies and tools like JIRA in my development process, and I enjoy building robust full-stack applications.
                     My strengths include analytical thinking, strong communication, and a passion for teamwork and continuous learning.
@@ -28,9 +31,9 @@ const Home = () => {
 
                 <div className="mt-6">
                     <h3 className="text-xl font-semibold mb-2 text-white">Tech Stack</h3>
-                    <div className="flex flex-wrap justify-center gap-2">
-                        {["React", "Spring Boot", "Java", "SQL", "Tailwind", "Git", "Firebase"].map((tech, i) => (
-                            <span key={i} className="bg-gray-800 text-gray-300 px-3 py-1 rounded text-sm">{tech}</span>
+                    <div className="flex flex-wrap justify-center gap-2 ">
+                        {["React.js","Next.js", "Node.js", "Spring Boot", "Java", "SQL", "Tailwind","BootStrap", "Git", "Firebase"].map((tech, i) => (
+                            <span key={i} className="bg-gray-800 text-gray-300 px-3 py-1 rounded text-sm hover:text-white transition duration-200 transform hover:-translate-y-0.5 hover:scale-105 hover:drop-shadow-[0_0_4px_#a855f7]">{tech}</span>
                         ))}
                     </div>
                 </div>

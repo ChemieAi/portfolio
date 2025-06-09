@@ -10,7 +10,7 @@ const Contact = () => {
             transition={{ duration: 0.4 }}
         >
             <section className="py-12">
-                <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
+                <h2 className="text-3xl mb-8 font-extrabold mb-2 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">Get in Touch</h2>
                 <p className="text-gray-400 mb-6 max-w-xl">
                     Whether you want to collaborate, have a question, or just say hi — feel free to drop a message via any of the platforms below.
                 </p>
