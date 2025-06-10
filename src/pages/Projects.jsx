@@ -37,6 +37,18 @@ const projects = [
         technologies: ["Python", "HTML"],
         github: "https://github.com/ChemieAi/imageClassifactionwebapp",
     },
+    {
+        title: "Fatura.io",
+        description: "Fatura yönetimi ve takip sisteminin temel özelliklerini içeren pratik bir uygulama.",
+        technologies: ["React", "Vite", "Tailwind", "Firebase"],
+        github: "https://github.com/ChemieAi/fatura-io",
+    },
+    {
+        title: "Tip Calculator App",
+        description: "Basit ve kullanıcı dostu arayüzüyle hesap bölme ve bahşiş hesaplama uygulaması.",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        github: "https://github.com/ChemieAi/tip-calculator-app",
+    },
 ];
 
 const Projects = () => {
