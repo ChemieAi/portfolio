@@ -4,7 +4,7 @@ const projects = [
     {
         title: "NextStepCV",
         description: "Adım adım CV oluşturmanı sağlayan modern, sade ve özelleştirilebilir bir uygulama.",
-        technologies: ["React", "Tailwind", "Firebase"],
+        technologies: ["React", "Tailwind", "Vite", "Express", "Firebase"],
         github: "https://github.com/ChemieAi/NextStep",
     },
     {
@@ -16,13 +16,13 @@ const projects = [
     {
         title: "Coffee Order App",
         description: "Kahve siparişi verebileceğin bir Android uygulaması.",
-        technologies: ["Kotlin", "Android Studio"],
+        technologies: ["Java", "Kotlin", "Android Studio", "Firebase"],
         github: "https://github.com/ChemieAi/coffeeorderappone",
     },
     {
         title: "BookLibApp",
         description: "Kişisel kitap arşivini yöneten bir uygulama.",
-        technologies: ["Kotlin", "JavaScript"],
+        technologies: ["JavaScript", "Kotlin", "Android Studio", "Firebase"],
         github: "https://github.com/ChemieAi/booklibapp",
     },
     {
@@ -34,7 +34,7 @@ const projects = [
     {
         title: "Image Classifier",
         description: "Python ile basit görsel sınıflandırıcı web app.",
-        technologies: ["Python", "HTML"],
+        technologies: ["Python", "Flask", "HTML"],
         github: "https://github.com/ChemieAi/imageClassifactionwebapp",
     },
     {
@@ -48,6 +48,12 @@ const projects = [
         description: "Basit ve kullanıcı dostu arayüzüyle hesap bölme ve bahşiş hesaplama uygulaması.",
         technologies: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/ChemieAi/tip-calculator-app",
+    },
+    {
+        title: "OneLink",
+        description: "Tüm sosyal medya ve bağlantılarını tek bir sayfada paylaşmanı sağlayan sade ve responsive bir uygulama.",
+        technologies: ["React", "Tailwind", "Vite", "Typescript", "Express", "MongoDB"],
+        github: "https://github.com/ChemieAi/one-link",
     },
 ];
 
