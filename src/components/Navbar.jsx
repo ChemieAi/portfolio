@@ -32,7 +32,7 @@ const Navbar = () => {
             Experience
           </Link>
           <a
-            href="/BURAK_KIZILAY_CV_ENGLISH_19-02-2025.pdf"
+            href="/BURAK_KIZILAY_CV_ENGLISH_02-07-2025.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-purple-600 via-pink-400 to-purple-600 text-transparent bg-clip-text hover:text-white transition duration-200 transform hover:-translate-y-0.5 hover:scale-105 hover:drop-shadow-[0_0_4px_#a855f7]"
