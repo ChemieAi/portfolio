@@ -3,58 +3,65 @@ import { motion } from 'framer-motion';
 const projects = [
     {
         title: "NextStepCV",
-        description: "Adım adım CV oluşturmanı sağlayan modern, sade ve özelleştirilebilir bir uygulama.",
+        description: "Adım adım CV oluşturmanı sağlayan modern, sade ve özelleştirilebilir bir WEB uygulaması. YATIRIMA AÇIK!",
         technologies: ["React", "Tailwind", "Vite", "Express", "Firebase"],
         github: "https://github.com/ChemieAi/NextStep",
     },
     {
         title: "ValoPros",
-        description: "VALORANT oyuncu-takım bilgi sitesi. Üniversite projesi olarak geliştirildi.",
+        description: "VALORANT oyuncu-takım bilgilerini görebileceğiniz bir WEB uygulaması.",
         technologies: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/ChemieAi/ValoPros",
     },
     {
         title: "Coffee Order App",
-        description: "Kahve siparişi verebileceğin bir Android uygulaması.",
+        description: "Kahve siparişi verebileceğin bir MOBİL uygulama.",
         technologies: ["Java", "Kotlin", "Android Studio", "Firebase"],
         github: "https://github.com/ChemieAi/coffeeorderappone",
     },
     {
         title: "BookLibApp",
-        description: "Kişisel kitap arşivini yöneten bir uygulama.",
+        description: "Kişisel kitap arşivini yöneten bir MOBİL uygulama.",
         technologies: ["JavaScript", "Kotlin", "Android Studio", "Firebase"],
         github: "https://github.com/ChemieAi/booklibapp",
     },
     {
         title: "Text Editor",
-        description: "Java Swing ile yapılmış basit metin düzenleyici.",
+        description: "Java Swing ile yapılmış basit metin düzenleyici bir MASAÜSTÜ uygulama (NotePad benzeri).",
         technologies: ["Java"],
         github: "https://github.com/ChemieAi/texr-editor-new",
     },
     {
         title: "Image Classifier",
-        description: "Python ile basit görsel sınıflandırıcı web app.",
+        description: "Python ile basit görsel sınıflandırıcı WEB uygulaması.",
         technologies: ["Python", "Flask", "HTML"],
         github: "https://github.com/ChemieAi/imageClassifactionwebapp",
     },
     {
         title: "Fatura.io",
-        description: "Fatura yönetimi ve takip sisteminin temel özelliklerini içeren pratik bir uygulama.",
+        description: "Fatura yönetimi ve takip sisteminin temel özelliklerini içeren pratik bir WEB uygulaması.",
         technologies: ["React", "Vite", "Tailwind", "Firebase"],
         github: "https://github.com/ChemieAi/fatura-io",
     },
     {
         title: "Tip Calculator App",
-        description: "Basit ve kullanıcı dostu arayüzüyle hesap bölme ve bahşiş hesaplama uygulaması.",
+        description: "Basit ve kullanıcı dostu arayüzüyle hesap bölme ve bahşiş hesaplama WEB uygulaması.",
         technologies: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/ChemieAi/tip-calculator-app",
     },
     {
         title: "OneLink",
-        description: "Tüm sosyal medya ve bağlantılarını tek bir sayfada paylaşmanı sağlayan sade ve responsive bir uygulama.",
+        description: "Tüm sosyal medya ve bağlantılarını tek bir sayfada paylaşmanı sağlayan sade ve responsive bir WEB uygulaması.",
         technologies: ["React", "Tailwind", "Vite", "Typescript", "Express", "MongoDB"],
         github: "https://github.com/ChemieAi/one-link",
     },
+    {
+        title: "Thrifty",
+        description: "Gider takibi yapabileceğin minimalist bütçe yönetim MOBİL uygulaması.",
+        technologies: ["Flutter", "Dart", "Provider", "Material UI", "Firebase"],
+        github: "https://github.com/ChemieAi/thrifty",
+    }
+
 ];
 
 const Projects = () => {
