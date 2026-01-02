@@ -21,7 +21,7 @@ const Contact = () => {
                         className="bg-[#111] border border-gray-800 p-5 rounded-xl hover:border-purple-500 hover:shadow-[0_0_12px_#a855f7] transition duration-300 transform hover:-translate-y-1 hover:scale-[1.03]"
                     >
                         <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
-                        <p className="text-gray-400">chemie.valorant@gmail.com</p>
+                        <p className="text-gray-400">kzlyburak@gmail.com</p>
                     </a>
 
                     <a

@@ -2,6 +2,12 @@ import { motion } from 'framer-motion';
 
 const projects = [
     {
+        title: "CV Eksperi",
+        description: "CV'ni otomatik olarak analiz ederek ATS sistemlerine uygunluğunu ölç. CV Eksperi, iş başvurularında öne çıkmanı sağlayacak araçlar sunar.(Github üzerinde bulunmamaktadır) YATIRIMA AÇIK!",
+        technologies: ["React", "Tailwind", "Vite", "Express", "Firebase", "Python", "AI"],
+        github: "https://cveksperi.com",
+    },
+    {
         title: "NextStepCV",
         description: "Adım adım CV oluşturmanı sağlayan modern, sade ve özelleştirilebilir bir WEB uygulaması. YATIRIMA AÇIK!",
         technologies: ["React", "Tailwind", "Vite", "Express", "Firebase"],
