@@ -3,67 +3,67 @@ import { motion } from 'framer-motion';
 const projects = [
     {
         title: "CV Eksperi",
-        description: "CV'ni otomatik olarak analiz ederek ATS sistemlerine uygunluğunu ölç. CV Eksperi, iş başvurularında öne çıkmanı sağlayacak araçlar sunar.(Github üzerinde bulunmamaktadır fakat View on github yazısına tıklayarak siteye ulaşabilirsiniz) YATIRIMA AÇIK!",
+        description: "Automatically analyze your CV and assess its suitability for ATS systems. CV Eksperi offers tools that will help you stand out in job applications. (Not available on Github, but you can access the site by clicking on \"View on Github\") OPEN TO INVESTMENT!",
         technologies: ["React", "Tailwind", "Vite", "Express", "Firebase", "Python", "Flask", "AI"],
         github: "https://cveksperi.com",
     },
     {
         title: "NextStepCV",
-        description: "Adım adım CV oluşturmanı sağlayan modern, sade ve özelleştirilebilir bir WEB uygulaması. YATIRIMA AÇIK!",
+        description: "A modern, simple, and customizable web application that lets you create your CV step-by-step. OPEN TO INVEST!",
         technologies: ["React", "Tailwind", "Vite", "Express", "Firebase"],
         github: "https://github.com/ChemieAi/NextStep",
     },
     {
         title: "ValoPros",
-        description: "VALORANT oyuncu-takım bilgilerini görebileceğiniz bir WEB uygulaması.",
+        description: "A web application where you can view VALORANT player-team information.",
         technologies: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/ChemieAi/ValoPros",
     },
     {
         title: "Coffee Order App",
-        description: "Kahve siparişi verebileceğin bir MOBİL uygulama.",
+        description: "A mobile application where you can place coffee orders.",
         technologies: ["Java", "Kotlin", "Android Studio", "Firebase"],
         github: "https://github.com/ChemieAi/coffeeorderappone",
     },
     {
         title: "BookLibApp",
-        description: "Kişisel kitap arşivini yöneten bir MOBİL uygulama.",
+        description: "A mobile application that manages your personal book archive.",
         technologies: ["JavaScript", "Kotlin", "Android Studio", "Firebase"],
         github: "https://github.com/ChemieAi/booklibapp",
     },
     {
         title: "Text Editor",
-        description: "Java Swing ile yapılmış basit metin düzenleyici bir MASAÜSTÜ uygulama (NotePad benzeri).",
+        description: "A simple text editor desktop application made with Java Swing (similar to NotePad).",
         technologies: ["Java"],
         github: "https://github.com/ChemieAi/texr-editor-new",
     },
     {
         title: "Image Classifier",
-        description: "Python ile basit görsel sınıflandırıcı WEB uygulaması.",
+        description: "A simple image classification web application made with Python.",
         technologies: ["Python", "Flask", "HTML"],
         github: "https://github.com/ChemieAi/imageClassifactionwebapp",
     },
     {
         title: "Fatura.io",
-        description: "Fatura yönetimi ve takip sisteminin temel özelliklerini içeren pratik bir WEB uygulaması.",
+        description: "A practical web application that includes the basic features of an invoice management and tracking system.",
         technologies: ["React", "Vite", "Tailwind", "Firebase"],
         github: "https://github.com/ChemieAi/fatura-io",
     },
     {
         title: "Tip Calculator App",
-        description: "Basit ve kullanıcı dostu arayüzüyle hesap bölme ve bahşiş hesaplama WEB uygulaması.",
+        description: "A simple and user-friendly web application for bill splitting and tip calculation.",
         technologies: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/ChemieAi/tip-calculator-app",
     },
     {
         title: "OneLink",
-        description: "Tüm sosyal medya ve bağlantılarını tek bir sayfada paylaşmanı sağlayan sade ve responsive bir WEB uygulaması.",
+        description: "A simple and responsive web application that allows you to share all your social media and links on a single page.",
         technologies: ["React", "Tailwind", "Vite", "Typescript", "Express", "MongoDB"],
         github: "https://github.com/ChemieAi/one-link",
     },
     {
         title: "Thrifty",
-        description: "Gider takibi yapabileceğin minimalist bütçe yönetim MOBİL uygulaması.",
+        description: "A minimalist budget management mobile application for expense tracking.",
         technologies: ["Flutter", "Dart", "Provider", "Material UI", "Firebase"],
         github: "https://github.com/ChemieAi/thrifty",
     }
@@ -81,6 +81,7 @@ const Projects = () => {
         >
             <section className="py-8">
                 <h2 className="text-3xl mb-8 font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">Projects</h2>
+                <h3 className="text-xl mb-6 font-extrabold text-gray-200">Here are some of the projects I've worked on. Scroll down and feel free to click "View on GitHub" links to explore them!</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                     {projects.map((project, index) => (
                         <div
