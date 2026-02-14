@@ -66,6 +66,12 @@ const projects = [
         description: "A minimalist budget management mobile application for expense tracking.",
         technologies: ["Flutter", "Dart", "Provider", "Material UI", "Firebase"],
         github: "https://github.com/ChemieAi/thrifty",
+    },
+    {
+        title: "Seesaw Challenge",
+        description: "A web application that allows users to click and drop items on a seesaw to balance it. The application uses physics principles to simulate the seesaw's movement based on the weight and position of the items.",
+        technologies: ["HTML", "CSS", "JavaScript", ],
+        github: "https://github.com/ChemieAi/seesaw-challenge",
     }
 
 ];
