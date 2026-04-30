@@ -2,14 +2,14 @@ import { motion } from 'framer-motion';
 
 const projects = [
     {
-        title: "CV Eksperi",
-        description: "Automatically analyze your CV and assess its suitability for ATS systems. CV Eksperi offers tools that will help you stand out in job applications. (Not available on Github, but you can access the site by clicking on \"View on Github\") OPEN TO INVESTMENT!",
+        title: "CV Eksperi (paused site)",
+        description: "Automatically analyze your CV and assess its suitability for ATS systems. CV Eksperi offers tools that will help you stand out in job applications. (Not available on Github, but you can access the site by clicking on \"View on Github\")",
         technologies: ["React", "Tailwind", "Vite", "Express", "Firebase", "Python", "Flask", "AI"],
-        github: "https://cveksperi.com",
+        github: "https://cveksperi.netlify.app",
     },
     {
         title: "NextStepCV",
-        description: "A modern, simple, and customizable web application that lets you create your CV step-by-step. OPEN TO INVEST!",
+        description: "A modern, simple, and customizable web application that lets you create your CV step-by-step. Live at: https://nextstepcv.tech  OPEN TO INVEST!",
         technologies: ["React", "Tailwind", "Vite", "Express", "Firebase"],
         github: "https://github.com/ChemieAi/NextStep",
     },

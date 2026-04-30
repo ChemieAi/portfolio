@@ -32,7 +32,7 @@ const Home = () => {
                 <div className="mt-6">
                     <h3 className="text-xl font-semibold mb-2 text-white">Tech Stack</h3>
                     <div className="flex flex-wrap justify-center gap-2 ">
-                        {["React.js","Next.js", "Node.js", "Spring Boot", "Java", "SQL", "Tailwind","BootStrap", "Git", "Firebase"].map((tech, i) => (
+                        {["React.js","Next.js", "Node.js", "Spring Boot", "Java", "Python", "SQL", "Tailwind","BootStrap", "Git", "Firebase"].map((tech, i) => (
                             <span key={i} className="bg-gray-800 text-gray-300 px-3 py-1 rounded text-sm hover:text-white transition duration-200 transform hover:-translate-y-0.5 hover:scale-105 hover:drop-shadow-[0_0_4px_#a855f7]">{tech}</span>
                         ))}
                     </div>
@@ -40,7 +40,7 @@ const Home = () => {
 
                 <div className="mt-6">
                     <h3 className="text-lg font-semibold text-white mb-2">Currently working on:</h3>
-                    <p className="text-blue-400">My personal portfolio & advanced ATS checker app (not on github / <a href='https://www.cveksperi.com' rel="noopener noreferrer" target="_blank">(CV Eksperi 👈🏼)</a>) & advanced CV builder app <a href='https://www.nextstepcv.tech' rel="noopener noreferrer" target="_blank">(NextStepCV 👈🏼)</a></p>
+                    <p className="text-blue-400">My personal portfolio & advanced ATS checker app (not on github / <a href='https://www.cveksperi.netlify.app' rel="noopener noreferrer" target="_blank">(CV Eksperi 👈🏼)</a>) & advanced ATS CV builder app <a href='https://www.nextstepcv.tech' rel="noopener noreferrer" target="_blank">(NextStepCV 👈🏼)</a></p>
                 </div>
             </section>
         </motion.section>
