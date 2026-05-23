@@ -1,4 +1,4 @@
 # My Portfolio
 
-|Domain   |   [burak.engineer](https://www.burak.engineer)   |
+|Domain   |   [burakkizilay.com](https://www.burakkizilay.com)   |
 |------- |------------------------------------------------ |

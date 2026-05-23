@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-80 backdrop-blur-md border-b border-gray-800">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="text-lg font-extrabold tracking-wide mb-2 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent text-transparent bg-clip-text hover:text-white transition duration-200 transform hover:-translate-y-0.5 hover:scale-105 hover:drop-shadow-[0_0_4px_#a855f7]">burak.engineer</Link>
+        <Link to="/" className="text-lg font-extrabold tracking-wide mb-2 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent text-transparent bg-clip-text hover:text-white transition duration-200 transform hover:-translate-y-0.5 hover:scale-105 hover:drop-shadow-[0_0_4px_#a855f7]">burakkizilay.com</Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 text-sm">
