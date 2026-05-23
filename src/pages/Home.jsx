@@ -40,7 +40,7 @@ const Home = () => {
 
                 <div className="mt-6">
                     <h3 className="text-lg font-semibold text-white mb-2">Currently working on:</h3>
-                    <p className="text-blue-400">My personal portfolio & advanced ATS checker app (not on github / <a href='https://www.cveksperi.netlify.app' rel="noopener noreferrer" target="_blank">(CV Eksperi 👈🏼)</a>) & advanced ATS CV builder app <a href='https://www.nextstepcv.tech' rel="noopener noreferrer" target="_blank">(NextStepCV 👈🏼)</a></p>
+                    <p className="text-blue-400">My personal portfolio & advanced ATS checker app (not on github / <a href='https://www.cveksperi.netlify.app' rel="noopener noreferrer" target="_blank">(CV Eksperi 👈🏼)</a>) & advanced ATS CV builder app <a href='https://www.nextstepcv.site' rel="noopener noreferrer" target="_blank">(NextStepCV 👈🏼)</a></p>
                 </div>
             </section>
         </motion.section>

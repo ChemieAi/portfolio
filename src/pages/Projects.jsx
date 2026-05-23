@@ -9,7 +9,7 @@ const projects = [
     },
     {
         title: "NextStepCV",
-        description: "A modern, simple, and customizable web application that lets you create your CV step-by-step. Live at: https://nextstepcv.tech  OPEN TO INVEST!",
+        description: "A modern, simple, and customizable web application that lets you create your CV step-by-step. Live at: https://nextstepcv.site  OPEN TO INVEST!",
         technologies: ["React", "Tailwind", "Vite", "Express", "Firebase"],
         github: "https://github.com/ChemieAi/NextStep",
     },
